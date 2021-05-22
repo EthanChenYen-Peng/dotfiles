@@ -154,3 +154,4 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 export PATH=/opt/homebrew/bin:$PATH
 # alias vim=nvim
+export TERM="screen-256color"

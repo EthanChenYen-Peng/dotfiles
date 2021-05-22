@@ -1,6 +1,7 @@
 """"""""""
 " Colorscheme
 """"""""""
+
 if has('termguicolors')
   set termguicolors
 endif
@@ -17,9 +18,16 @@ let g:gruvbox_contrast_light = 'soft'
 let g:gruvbox_contrast_dark = 'soft'
 " let g:airline_theme='solarized'
 let g:material_theme_style =  'default' 
+
+
 set background=dark
-colorscheme edge
+colorscheme everforest
 set t_Co=256
+
+" Color issue with tmux  https://www.reddit.com/r/vim/comments/75zvux/why_is_vim_background_different_inside_tmux/
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+set term=xterm-256color
 """"""""""
 " Screen display 
 """"""""""

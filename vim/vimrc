@@ -116,6 +116,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'rhysd/vim-color-spring-night'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'sainnhe/edge'
+    Plug 'vim-scripts/wombat256.vim'
 
     " Appearances
     Plug 'vim-airline/vim-airline'
