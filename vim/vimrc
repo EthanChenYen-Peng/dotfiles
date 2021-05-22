@@ -63,8 +63,8 @@ nnoremap <leader><leader> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 autocmd VimResized * :wincmd =
 
 " zoom a vim pane, <C-w>= to re-balance
-nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
-nnoremap <leader>= :wincmd =<cr>
+nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>  "Zooming pane'
+nnoremap <leader>= :wincmd =<cr>                "Rebalance
 
 
 call plug#begin('~/.vim/plugged')
