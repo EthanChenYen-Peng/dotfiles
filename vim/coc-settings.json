@@ -1,0 +1,17 @@
+{
+"coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "ruby"
+  ],
+  "prettier.requireConfig": true,
+  "eslint.autoFixOnSave": true,
+  "html.format.enable": true,
+  "solargraph.diagnostics": true
+}
+

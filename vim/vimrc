@@ -76,6 +76,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'romainl/vim-cool'    " Disable highlight search once finished.
     Plug 'machakann/vim-highlightedyank' " Highlighted the yanked text.
     Plug 'kien/ctrlp.vim'
+    Plug 'junegunn/fzf.vim'
     Plug 'mileszs/ack.vim'
     Plug 'preservim/nerdtree'
     Plug 'ryanoasis/vim-devicons'
@@ -85,7 +86,7 @@ call plug#begin('~/.vim/plugged')
     
     " Dev tools
 	Plug 'vim-test/vim-test'
-    " Plug 'SirVer/ultisnips'
+    Plug 'SirVer/ultisnips'
     " Snippets are separated from the engine. Add this if you want them:
     Plug 'honza/vim-snippets'
     Plug 'mlaursen/vim-react-snippets'
@@ -107,16 +108,15 @@ call plug#begin('~/.vim/plugged')
     Plug 'pangloss/vim-javascript'
 
     " Themes
-    Plug 'sainnhe/everforest' 
     Plug 'sainnhe/sonokai'
     Plug 'lifepillar/vim-solarized8'
     Plug 'mswift42/vim-themes'
-    Plug 'crusoexia/vim-monokai'
     Plug 'morhetz/gruvbox'
-    Plug 'rhysd/vim-color-spring-night'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'sainnhe/edge'
-    Plug 'vim-scripts/wombat256.vim'
+    Plug 'nightsense/cosmic_latte'
+    Plug 'rakr/vim-one'
+    Plug 'haishanh/night-owl.vim'
 
     " Appearances
     Plug 'vim-airline/vim-airline'

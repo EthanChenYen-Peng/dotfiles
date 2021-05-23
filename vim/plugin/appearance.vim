@@ -16,12 +16,12 @@ let g:sonokai_style = 'maia'
 
 let g:gruvbox_contrast_light = 'soft'
 let g:gruvbox_contrast_dark = 'soft'
-" let g:airline_theme='solarized'
 let g:material_theme_style =  'default' 
-
+let g:airline_theme='solarized'
 
 set background=dark
-colorscheme everforest
+colorscheme bergen 
+
 set t_Co=256
 
 " Color issue with tmux  https://www.reddit.com/r/vim/comments/75zvux/why_is_vim_background_different_inside_tmux/
