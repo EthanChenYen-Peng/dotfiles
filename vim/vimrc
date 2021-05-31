@@ -75,8 +75,10 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'romainl/vim-cool'    " Disable highlight search once finished.
     Plug 'machakann/vim-highlightedyank' " Highlighted the yanked text.
-    Plug 'kien/ctrlp.vim'
+    " Plug 'kien/ctrlp.vim'
+    Plug 'junegunn/fzf', { 'dir': '~/opt/homebrew/bin/fzf' }
     Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
     Plug 'mileszs/ack.vim'
     Plug 'preservim/nerdtree'
     Plug 'ryanoasis/vim-devicons'
@@ -90,7 +92,7 @@ call plug#begin('~/.vim/plugged')
     " Snippets are separated from the engine. Add this if you want them:
     Plug 'honza/vim-snippets'
     Plug 'mlaursen/vim-react-snippets'
-    " Plug 'dense-analysis/ale' " Asynchronous Lint Engine
+    Plug 'dense-analysis/ale' " Asynchronous Lint Engine
 
     " Ruby on rails
     Plug 'vim-ruby/vim-ruby'
@@ -117,6 +119,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'nightsense/cosmic_latte'
     Plug 'rakr/vim-one'
     Plug 'haishanh/night-owl.vim'
+    Plug 'sainnhe/gruvbox-material'
 
     " Appearances
     Plug 'vim-airline/vim-airline'

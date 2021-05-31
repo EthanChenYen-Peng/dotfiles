@@ -7,11 +7,11 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "ruby"
+    "vue"
   ],
   "prettier.requireConfig": true,
   "eslint.autoFixOnSave": true,
   "html.format.enable": true,
-  "solargraph.diagnostics": true
+"tailwindCSS.headwind.runOnSave": false
 }
 
