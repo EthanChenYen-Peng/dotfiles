@@ -17,11 +17,11 @@ let g:sonokai_style = 'maia'
 let g:gruvbox_contrast_light = 'soft'
 let g:gruvbox_contrast_dark = 'soft'
 let g:material_theme_style =  'default' 
-" let g:airline_theme='solarized'
+let g:airline_theme='solarized'
 
-set background=dark
-" colorscheme silkworm 
-colorscheme gruvbox-material 
+set background=light
+colorscheme silkworm 
+" colorscheme hybrid
 
 set t_Co=256
 

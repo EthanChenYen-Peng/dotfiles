@@ -47,17 +47,17 @@ noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
 nnoremap <SPACE> <Nop>
 let mapleader=' '
-" TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+" " TAB in general mode will move to text buffer
+" nnoremap <TAB> :bnext<CR>
+" " SHIFT-TAB will go back
+" nnoremap <S-TAB> :bprevious<CR>
 
 "Remove all trailing whitespace by pressing F5
 nnoremap <leader><leader> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 
 """"""""""""""
-" Resize with tmux 
+" Resize with tmux
 """"""""""""""
 " automatically rebalance windows on vim resize
 autocmd VimResized * :wincmd =
@@ -85,7 +85,7 @@ call plug#begin('~/.vim/plugged')
 
     " Tmux integration
 	Plug 'christoomey/vim-tmux-navigator'
-    
+
     " Dev tools
 	Plug 'vim-test/vim-test'
     Plug 'SirVer/ultisnips'
@@ -116,10 +116,12 @@ call plug#begin('~/.vim/plugged')
     Plug 'morhetz/gruvbox'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'sainnhe/edge'
-    Plug 'nightsense/cosmic_latte'
     Plug 'rakr/vim-one'
     Plug 'haishanh/night-owl.vim'
     Plug 'sainnhe/gruvbox-material'
+    Plug 'nanotech/jellybeans.vim'
+    Plug 'w0ng/vim-hybrid'
+
 
     " Appearances
     Plug 'vim-airline/vim-airline'
